@@ -1,5 +1,4 @@
-
-
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class DalelApp extends StatelessWidget {
@@ -7,11 +6,18 @@ class DalelApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      appBar: AppBar(
-        title: Text('Dalel App'),
-      ),
-      backgroundColor: Colors.white,
+    return MaterialApp(
+      themeMode: ThemeMode.light,
+      debugShowCheckedModeBanner: false,
+      //* for localization
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
+     home: Scaffold(
+       body: Center(
+         child: Text('Dalel App'),
+       ),
+     ),
     );
   }
 }
