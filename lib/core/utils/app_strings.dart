@@ -1,48 +1,77 @@
 abstract class AppStrings {
-  static const String appName = 'Dalel';
-  static const String onBoardingTitle1 = "Explore The history with Dalel in a smart way";
-  static const String onBoardingTitle2 = "From every place on earth";
-  static const String onBoardingTitle3 = "Using modern AI technology for better user experience";
-  static const String onBoardingDescription1 = "Using our app’s history libraries you can find many historical periods ";
-  static const String onBoardingDescription2 = "A big variety of ancient places from all over the world";
-  static const String onBoardingDescription3 = "AI provide recommendations and helps you to continue the search journey";
-  static const String next = "Next";
-  static const String createAccount = "Create Account";
-  static const String loginNow = "Login Now";
-  static const String welcome = "Welcome !";
-  static const String firstName = "First Name";
-  static const String lastName = "Last Name";
-  static const String emailAddress = "Email Address";
-  static const String password = "Password";
-  static const String iHaveAgreeToOurTermsAndCondition = "I have agree to our Terms and Condition";
-  static const String signUp = "Sign Up";
-  static const String alreadyHaveAnAccountQ = "Already have an account ?";
-  static const String signIn = "Sign In";
-  static const String welcomeBack = "Welcome Back !";
-  static const String dontHaveAnAccountQ = "Don’t have an account ?";
-  static const String historicalPeriods = "Historical periods";
-  static const String historicalCharacters = "Historical Characters";
-  static const String historicalSouvenirs = "Historical Souvenirs";
-  static const String aboutAncientEgypt = "About Ancient Egypt";
-  static const String ancientEgyptWars = "Ancient Egypt Wars";
-  static const String recommendations = "Recommendations";
-  static const String profile = "Profile";
-  static const String editProfile = "Edit Profile";
-  static const String notification = "Notification";
-  static const String security = "Security";
-  static const String privacyPolicy = "Privacy Policy";
-  static const String bazar = "Bazar";
-  static const String logOut = "Log Out";
-  static const String historyBooks = "History Books";
-  static const String myCart = "My Cart";
-  static const String forgotPassword = "Forgot Password";
-  static const String forgotPasswordDescription = "Enter your registered email below to receive password reset instruction";
-  static const String sendVerificationCode = "Send Verification Code";
-   static const String verifyAccount = "Verify Account";
-   static const String verifyAccountDescription = "Enter 4 digit code we have sent to testing@gmail.com";
-   static const String haventReceivedVerificationCodeQ = "Haven’t received verification code?";
-   static const String resendCode = "Resend Code";
-   static const String verificationNow = "Verification Now";
+  //ToDo:All Strings
 
- 
+  static const String appName = "Dalel",
+      //!On Boarding Strings
+      onBoardingTitle1 = "Explore The history with Dalel in a smart way",
+      onBoardingTitle2 = "From every place on earth",
+      onBoardingTitle3 = "Using modern AI technology for better user experience",
+      onBoardingDescription1 = "Using our app’s history libraries you can find many historical periods ",
+      onBoardingDescription2 = "A big variety of ancient places from all over the world",
+      onBoardingDescription3 = "AI provide recommendations and helps you to continue the search journey",
+      skip = "Skip",
+      next = "Next",
+      createAccount = "Create Account",
+      loginNow = "Login Now",
+      //!Auth Strings
+      welcome = "Welcome!",
+      welcomeBack = "Welcome Back!",
+      fristName = "First Name",
+      lastName = "Last Name",
+      emailAddress = "Email Address",
+      password = "Password",
+      iHaveAgreeToOur = "I have agree to our ",
+      termsAndCondition = "Terms and Condition",
+      signUp = "Sign Up",
+      signIn = "Sign In",
+      alreadyHaveAnAccount = "Already have an account ? ",
+      dontHaveAnAccount = "Don’t have an account ? ",
+      forgotPassword = "Forgot Password ?",
+      //!Home Strings
+      recommendations = "Recommendations",
+      about = "About",
+      wars = "Wars",
+      //!Search Strings
+      searchDeepIntoTheHistory = "Search deep into the history",
+      recent = "Recent",
+      //!Profile Strings
+      profile = "Profile",
+      account = "Account",
+      editProfile = "Edit Profile",
+      notification = "Notification",
+      general = "General",
+      settings = "Settings",
+      security = "Security",
+      privacyPolicy = "Privacy Policy",
+      logOut = "Log Out",
+      //!Bazar
+      bazar = "Bazar",
+      historicalPeriods = "Historical periods",
+      historicalCharacters = "Historical Characters",
+      historyBooks = "History Books",
+      historicalSouvenirs = "Historical Souvenirs",
+      //!Cart
+      myCart = "My Cart",
+      totalPayment = "Total Payment",
+      checkoutNow = "Checkout Now",
+      //!Payment Strings
+      checkoutScreen = "Checkout Screen",
+      deliveryAddress = "Delivery Address",
+      change = "Change",
+      items = "1 items",
+      selectedProduct = "Selected Product",
+      paymentMethod = "Payment Method",
+      confirmPayment = "Confirm Payment",
+      orderSuccess = "Order Success",
+      thankYou =
+          "Thank you for your order here and your package will be sent to your address very quickly and fast good product",
+      backToHome = "Back To Home",
+      //!Forgot password
+      forgotPasswordPage = "Forgot Password",
+      sendResetPasswordLink = "Send Reset Passwrod Link",
+      verificationNow = "Verification Now",
+      resendCode = "Resend Code",
+      verifyAccount = "Verify Account",
+      enter4DigitCodeWeHaveSentTo = "Enter 4 digit code we have sent to ",
+      haventReceivedVerificationCode = "Haven’t received verification code?";
 }
