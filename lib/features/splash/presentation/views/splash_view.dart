@@ -37,6 +37,6 @@ class _SplashViewState extends State<SplashView> {
 //* Delayed navigation to the next screen
 void dalayedNavigate(context) {
   Future.delayed(const Duration(seconds: 2), () {
-    customNavigateWithReplacement(context, AppRoutes.onBoardingView);
+    customReplacementNavigate(context, AppRoutes.onBoardingView);
   });
 }

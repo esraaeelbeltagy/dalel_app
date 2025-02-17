@@ -3,12 +3,10 @@ description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-
 version: 1.0.0+1
 
 environment:
   sdk: ^3.7.0
-
 
 dependencies:
   cupertino_icons: ^1.0.8
@@ -16,6 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^14.8.0
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_lints: ^5.0.0
@@ -24,12 +23,11 @@ dev_dependencies:
 
 flutter:
 
-
   uses-material-design: true
-  
+
   assets:
     - assets/images/
- 
+
   fonts:
     - family: Pacifico
       fonts:
@@ -42,7 +40,7 @@ flutter:
         - asset: assets/fonts/Poppins-Medium.ttf
           weight: 500
         - asset: assets/fonts/Poppins-SemiBold.ttf
-          weight: 600    
+          weight: 600
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700
         - asset: assets/fonts/Poppins-ExtraBold.ttf

@@ -5,6 +5,6 @@ void customNavigate(BuildContext context , String routeName) {
   GoRouter.of( context).push(routeName);
 }
 
-void customNavigateWithReplacement(BuildContext context , String routeName) {
+void customReplacementNavigate(BuildContext context , String routeName) {
   GoRouter.of( context).pushReplacementNamed(routeName);
 }

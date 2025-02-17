@@ -12,4 +12,36 @@ abstract class AppTextStyles {
       fontWeight: FontWeight.w400,
     );
   }
+  static TextStyle poppinsRegular16Black(context) {
+    return   TextStyle(
+      color: AppColors.normalBlackColor,
+      fontSize: getResponsiveFontSize(context, fontSize: 16, ),
+      fontFamily: 'Poppins',
+      fontWeight: FontWeight.w400,
+    );
+  }
+  static TextStyle poppinsMedium24Black(context) {
+    return   TextStyle(
+      color: AppColors.normalBlackColor,
+      fontSize: getResponsiveFontSize(context, fontSize: 24, ),
+      fontFamily: 'Poppins',
+      fontWeight: FontWeight.w500,
+    );
+  }
+  static TextStyle poppinsLight16Black(context) {
+    return   TextStyle(
+      color: AppColors.normalBlackColor,
+      fontSize: getResponsiveFontSize(context, fontSize: 16, ),
+      fontFamily: 'Poppins',
+      fontWeight: FontWeight.w300,
+    );
+  }
+  static TextStyle poppinsMeduim18White(context) {
+    return   TextStyle(
+      color: AppColors.whiteColor,
+      fontSize: getResponsiveFontSize(context, fontSize: 18, ),
+      fontFamily: 'Poppins',
+      fontWeight: FontWeight.w500,
+    );
+  }
 }
