@@ -3,19 +3,27 @@ import 'package:dalel_app/features/on_boarding/presentation/widgets/on_boarding_
 import 'package:flutter/material.dart';
 
 class OnBoardingViewBody extends StatelessWidget {
-  OnBoardingViewBody({super.key});
-  final PageController _pageController = PageController();
+  const OnBoardingViewBody({super.key, required this.pageController , 
+ required this.onPageChanged , 
+  });
+  final PageController pageController;
+  final void Function(int) onPageChanged ; 
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: PageView.builder(
-        physics: BouncingScrollPhysics(),
-        controller: _pageController,
-        itemBuilder:
-            (context, index) => OnBoardingPageViewItem(pageController: _pageController , 
-            onBoardingModel: onBoardingList[index],
-            ),
-        itemCount: onBoardingList.length,
+      child: SizedBox(
+       // height: MediaQuery.of(context).size.height * 0.82,
+        child: PageView.builder(
+          onPageChanged: onPageChanged,
+          physics: BouncingScrollPhysics(),
+          controller: pageController,
+          itemBuilder:
+              (context, index) => OnBoardingPageViewItem(
+                pageController: pageController,
+                onBoardingModel: onBoardingList[index],
+              ),
+          itemCount: onBoardingList.length,
+        ),
       ),
     );
   }
