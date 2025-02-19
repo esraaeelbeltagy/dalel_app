@@ -1,5 +1,8 @@
+import 'package:dalel_app/core/database/cache/cache_helper.dart';
 import 'package:dalel_app/core/functions/navigation.dart';
 import 'package:dalel_app/core/routes/app_routes.dart';
+import 'package:dalel_app/core/services/servirce_locator.dart';
+import 'package:dalel_app/features/on_boarding/presentation/views/functions/on_boarding_functions.dart';
 import 'package:dalel_app/features/on_boarding/presentation/widgets/get_buttons_widget.dart';
 import 'package:dalel_app/features/on_boarding/presentation/widgets/on_boarding_nav_bar.dart';
 import 'package:dalel_app/features/on_boarding/presentation/widgets/on_boarding_view_body.dart';
@@ -26,6 +29,8 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               SizedBox(height: 40),
               OnBoardingNavBar(
                 onTap: () {
+                  //! that means the user has visited the onBoarding screen
+                 onBoardingVisited(); 
                   customReplacementNavigate(context, AppRoutes.signUpView);
                 },
               ),
