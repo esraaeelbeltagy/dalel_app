@@ -1,0 +1,4 @@
+abstract class AppConstants {
+    static const SUPABASE_URL  = "https://ywwbembkluykhirzxdci.supabase.co" ; 
+    static const SUPABASE_ANON_KEY ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl3d2JlbWJrbHV5a2hpcnp4ZGNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAyMjM3MDQsImV4cCI6MjA1NTc5OTcwNH0.hW7pudce9pFyjogWqJQobFtW1aUMblTUwnSoygLFlFo"  ;
+}
