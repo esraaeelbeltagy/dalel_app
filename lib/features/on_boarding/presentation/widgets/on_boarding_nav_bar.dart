@@ -15,7 +15,7 @@ final void Function()? onTap ;
         onTap : onTap , 
         child: Text(
           AppStrings.skip,
-          style: AppTextStyles.poppinsRegular16Black(context),
+          style: TextStyles.poppinsRegular16Black(context),
         ),
       ),
     );

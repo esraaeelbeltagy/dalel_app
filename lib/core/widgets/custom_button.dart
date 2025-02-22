@@ -17,7 +17,7 @@ final void Function()? onPressed  ;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 48 ,
+      height: 56 ,
       width: double.infinity,
       child: ElevatedButton(
         onPressed: onPressed,
@@ -28,7 +28,7 @@ final void Function()? onPressed  ;
         ),
         child: Text(
            text,
-          style: AppTextStyles.poppinsMeduim18White(context).copyWith(color: textColor ?? AppColors.whiteColor),
+          style: TextStyles.poppinsMeduim18White(context).copyWith(color: textColor ?? AppColors.whiteColor),
         ),
       ),
     );

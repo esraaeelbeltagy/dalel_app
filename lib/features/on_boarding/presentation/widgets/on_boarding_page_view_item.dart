@@ -23,7 +23,7 @@ class OnBoardingPageViewItem extends StatelessWidget {
         Flexible(child: SizedBox(height: 32)),
         Text(
           onBoardingModel.title,
-          style: AppTextStyles.poppinsMedium24Black(context),
+          style: TextStyles.poppinsMedium24Black(context),
           textAlign: TextAlign.center,
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
@@ -31,7 +31,7 @@ class OnBoardingPageViewItem extends StatelessWidget {
         Flexible(child: SizedBox(height: 16)),
         Text(
           onBoardingModel.description,
-          style: AppTextStyles.poppinsLight16Black(context),
+          style: TextStyles.poppinsLight16Black(context),
           textAlign: TextAlign.center,
           maxLines: 2,
           overflow: TextOverflow.ellipsis,

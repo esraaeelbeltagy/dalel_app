@@ -1,7 +1,5 @@
-import 'package:dalel_app/core/database/cache/cache_helper.dart';
 import 'package:dalel_app/core/functions/navigation.dart';
 import 'package:dalel_app/core/routes/app_routes.dart';
-import 'package:dalel_app/core/services/servirce_locator.dart';
 import 'package:dalel_app/features/on_boarding/presentation/views/functions/on_boarding_functions.dart';
 import 'package:dalel_app/features/on_boarding/presentation/widgets/get_buttons_widget.dart';
 import 'package:dalel_app/features/on_boarding/presentation/widgets/on_boarding_nav_bar.dart';

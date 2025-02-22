@@ -37,7 +37,7 @@ class GetButtonsWidget extends StatelessWidget {
             },
             child: Text(
               AppStrings.loginNow,
-              style: AppTextStyles.poppinsRegular16Black(context).copyWith(
+              style: TextStyles.poppinsRegular16Black(context).copyWith(
                 color: AppColors.primaryColor,
                 decoration: TextDecoration.underline,
                 decorationColor: AppColors.primaryColor,
